@@ -66,7 +66,7 @@
                 </div>
                 <a href="contact.html" class="nav-item nav-link active">Contact</a>
             </div>
-            <a href="https://wa.me/+918590203073" class="btn btn-primary py-4 px-lg-5 d-none d-lg-block">Join Now<i class="fa fa-arrow-right ms-3"></i></a>
+            <a href="https://wa.me/+918891903073" class="btn btn-primary py-4 px-lg-5 d-none d-lg-block">Join Now<i class="fa fa-arrow-right ms-3"></i></a>
         </div>
     </nav>
     <!-- Navbar End -->
@@ -207,14 +207,15 @@
                 <div class="col-lg-3 col-md-6">
                     <h4 class="text-white mb-3">Contact</h4>
                     
+                    <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>+91 8590203073</p>
                     <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>+91 8891903073</p>
-                    <p class="mb-2"><i class="fab fa-whatsapp me-3"></i>+91 8590203073</p>
+                    <p class="mb-2"><i class="fab fa-whatsapp me-3"></i>+91 8891903073</p>
                     <!-- <p class="mb-2"><i class="fa fa-envelope me-3"></i>usheracademia@gmail.com</p> -->
                     <p class="mb-2"><i class="fa fas fa-map-marker-alt me-3"></i>Perinthalmanna road, Pattambi, Near GHSS Pattambi</p>
                     <div class="d-flex pt-2">
                         <a class="btn btn-outline-light btn-social" href="https://www.facebook.com/profile.php?id=61556781394979&mibextid=YMEMSu"><i class="fab fa-facebook-f"></i></a>
                         <a class="btn btn-outline-light btn-social" href="https://www.instagram.com/usher.academia_/?locale=us&hl=am-et"><i class="fab fa-instagram"></i></a>
-                        <a class="btn btn-outline-light btn-social" href="https://wa.me/+918590203073"><i class="fab fa-whatsapp"></i></a>
+                        <a class="btn btn-outline-light btn-social" href="https://wa.me/+918891903073"><i class="fab fa-whatsapp"></i></a>
                     </div>
                 </div>
                 <!-- <div class="col-lg-3 col-md-6">
@@ -243,7 +244,7 @@
                 <div class="col-lg-3 col-md-6">
                     <h4 class="text-white mb-3">Join Us!</h4>
                     <p>Click Here To Reach Us</p>
-                     <a href="https://wa.me/+918590203073" class="curved-primary-button">Join Now<i class="fa fa-arrow-right ms-3"></i></a>
+                     <a href="https://wa.me/+918891903073" class="curved-primary-button">Join Now<i class="fa fa-arrow-right ms-3"></i></a>
                     <!-- <div class="position-relative mx-auto" style="max-width: 400px;">
                         <input class="form-control border-0 w-100 py-3 ps-4 pe-5" type="text" placeholder="Your email">
                         <button type="button" class="btn btn-primary py-2 position-absolute top-0 end-0 mt-2 me-2">SignUp</button>
@@ -300,10 +301,17 @@
             var course = document.getElementById('course').value;
             var message = document.getElementById('message').value;
     
+            console.log("Full Name: " + fullName);
+            console.log("Email: " + email);
+            console.log("Phone: " + phone);
+            console.log("City: " + city);
+            console.log("Course: " + course);
+            console.log("Message: " + message);
+    
             var whatsappMessage = `Full Name: ${fullName}\nEmail: ${email}\nPhone: ${phone}\nCity: ${city}\nCourse: ${course}\nMessage: ${message}`;
     
-            var phoneNumber = '918590203073';
-            var whatsappURL = `https://wa.me/${+918590203073}?text=${encodeURIComponent(whatsappMessage)}`;
+            var phoneNumber = '918891903073';
+            var whatsappURL = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(whatsappMessage)}`;
     
             setTimeout(function() {
                 window.open(whatsappURL, '_blank');
