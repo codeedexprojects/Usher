@@ -148,7 +148,9 @@
 .header-carousel .owl-nav .owl-next{
     display: none !important;
 }
-
+.course-item img{
+    height: 170px !important;
+}
 }
 
 @media (min-width: 992px) {
