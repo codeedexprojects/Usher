@@ -126,6 +126,31 @@
     transition: .5s;
 }
 
+#acad{
+    width: 1200px;
+}
+
+#str{
+    width: 1000px;
+}
+
+@media (max-width: 433px) {
+    #acad{
+        width: 100%;
+    }
+#str{
+    width: 100%;
+}
+.header-carousel .owl-nav .owl-prev{
+    display: none !important;
+
+}
+.header-carousel .owl-nav .owl-next{
+    display: none !important;
+}
+
+}
+
 @media (min-width: 992px) {
     .navbar .nav-item .dropdown-menu {
         display: block;
